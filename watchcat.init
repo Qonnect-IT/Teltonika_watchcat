@@ -1,5 +1,3 @@
-/etc/init/watchcat
-
 #!/bin/sh /etc/rc.common
 
 USE_PROCD=1
