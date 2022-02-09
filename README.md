@@ -9,6 +9,14 @@ Teltonika routers are running a custom version of OpenWRT, therefor not all prog
 
 the file ```watchcat.config``` holds a template for configuring Watchcat. The file uses parameters as specified on https://openwrt.org/docs/guide-user/advanced/watchcat
 
+## Installation
+
+Log into the Teltonika via SSH and run the following command:
+
+```
+curl --output - https://raw.githubusercontent.com/Qonnect-IT/Teltonika_watchcat/master/watchcat.install.sh | sh
+```
+
 ## Tested firmware versions
 
 RUT_2XX_R-00.01.14.5
